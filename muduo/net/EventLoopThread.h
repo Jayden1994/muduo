@@ -16,7 +16,9 @@
 #include <muduo/base/Thread.h>
 
 #include <boost/noncopyable.hpp>
-
+/*
+专门用于事件分发的线程
+*/
 namespace muduo
 {
 namespace net

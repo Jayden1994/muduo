@@ -35,8 +35,8 @@ class SudokuServer
   void start()
   {
     LOG_INFO << "starting " << numThreads_ << " threads.";
-    threadPool_.start(numThreads_);
-    server_.start();
+    threadPool_.start(numThreads_); //创建numThreads个线程，并阻塞在CountDownLatch上
+    server_.start();    //调用listen，并将监听套接口的chanel加到loop中，等待调用loop()；
   }
 
  private:
@@ -115,7 +115,9 @@ class SudokuServer
     string result = solveSudoku(puzzle);
     if (id.empty())
     {
-      conn->send(result+"\r\n");
+      conn->send(result+"\r\n");    //conn中记录了创建conn的线程eventloop，不论在哪调用send函数
+                                    //都是由创建该eventloop的线程调用send函数，即所有IO工作都由一个
+                                    //Reactor线程完成
     }
     else
     {
@@ -142,7 +144,7 @@ int main(int argc, char* argv[])
   SudokuServer server(&loop, listenAddr, numThreads);
 
   server.start();
-
   loop.loop();
 }
 
+class TcpServer;

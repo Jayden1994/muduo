@@ -17,7 +17,9 @@
 #include <boost/function.hpp>
 #include <boost/noncopyable.hpp>
 #include <boost/ptr_container/ptr_vector.hpp>
-
+/*
+多线程的IO模型
+*/
 namespace muduo
 {
 

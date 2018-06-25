@@ -10,7 +10,9 @@
 #include <muduo/base/Mutex.h>
 
 #include <boost/noncopyable.hpp>
-
+/*
+“倒计时门闩”同步
+*/
 namespace muduo
 {
 

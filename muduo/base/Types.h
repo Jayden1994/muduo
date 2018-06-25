@@ -12,7 +12,9 @@
 #ifndef NDEBUG
 #include <assert.h>
 #endif
-
+/*
+基本类型声明
+*/
 ///
 /// The most common stuffs.
 ///

@@ -7,7 +7,9 @@
 // Author: Shuo Chen (chenshuo at chenshuo dot com)
 //
 // This is an internal header file, you should not include this.
-
+/*
+基于epoll的IO复用后端
+*/
 #ifndef MUDUO_NET_POLLER_EPOLLPOLLER_H
 #define MUDUO_NET_POLLER_EPOLLPOLLER_H
 

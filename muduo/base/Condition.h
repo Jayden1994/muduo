@@ -2,6 +2,9 @@
 // that can be found in the License file.
 //
 // Author: Shuo Chen (chenshuo at chenshuo dot com)
+/*
+条件变量，与Mutex.h一同使用
+*/
 
 #ifndef MUDUO_BASE_CONDITION_H
 #define MUDUO_BASE_CONDITION_H

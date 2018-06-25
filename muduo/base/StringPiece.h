@@ -47,7 +47,9 @@
 #ifndef MUDUO_STD_STRING
 #include <string>
 #endif
-
+/*
+从google开源代码借用的字符串参数传递类型
+*/
 namespace muduo {
 
 // For passing C-style string argument to a function.

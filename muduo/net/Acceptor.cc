@@ -51,7 +51,8 @@ void Acceptor::listen()
   loop_->assertInLoopThread();
   listenning_ = true;
   acceptSocket_.listen();
-  acceptChannel_.enableReading();
+  acceptChannel_.enableReading();   //在这里调用update，设置acceptChannel对读感兴趣，
+                                    //将acceptChannel加入到loop中
 }
 
 void Acceptor::handleRead()

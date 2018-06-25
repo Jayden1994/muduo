@@ -14,7 +14,12 @@
 #include <boost/noncopyable.hpp>
 #include <boost/shared_ptr.hpp>
 #include <pthread.h>
-
+/*
+功能：线程对象
+说明：Thread用于封装pthread，
+如果调用了join，Thread的生命期长于pthread，Thread调用start时，pthread生命期开始，Thread调用join后，
+pthread生命期终止。如果不掉用join，则在Thread析构时，设置pthread为detach，即线程结束时，自动释放资源。
+*/
 namespace muduo
 {
 

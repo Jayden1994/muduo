@@ -12,7 +12,9 @@
 #define MUDUO_NET_SOCKET_H
 
 #include <boost/noncopyable.hpp>
-
+/*
+封装sockets的描述符，负责关闭连接
+*/
 // struct tcp_info is in <netinet/tcp.h>
 struct tcp_info;
 

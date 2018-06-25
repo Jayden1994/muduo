@@ -23,7 +23,9 @@
 #include <muduo/base/Timestamp.h>
 #include <muduo/net/Callbacks.h>
 #include <muduo/net/TimerId.h>
-
+/*
+事件分发器
+*/
 namespace muduo
 {
 namespace net

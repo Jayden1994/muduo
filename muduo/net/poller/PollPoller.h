@@ -14,7 +14,9 @@
 #include <muduo/net/Poller.h>
 
 #include <vector>
-
+/*
+基于poll的IO复用后端
+*/
 struct pollfd;
 
 namespace muduo

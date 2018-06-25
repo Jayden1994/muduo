@@ -17,7 +17,9 @@
 #include <boost/weak_ptr.hpp>
 
 #include <muduo/base/Timestamp.h>
-
+/*
+用于每个socket连接的事件分发
+*/
 namespace muduo
 {
 namespace net

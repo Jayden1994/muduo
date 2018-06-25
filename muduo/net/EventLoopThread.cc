@@ -42,9 +42,10 @@ EventLoopThread::~EventLoopThread()
 EventLoop* EventLoopThread::startLoop()
 {
   assert(!thread_.started());
-  thread_.start();
+  thread_.start();  //thread调用start时，io线程创建eventloop，主线程继续做下面while的判断
 
   {
+    //保证子线程已经运行到loop_ = &loop之后，保证loop_被正常初始化
     MutexLockGuard lock(mutex_);
     while (loop_ == NULL)
     {

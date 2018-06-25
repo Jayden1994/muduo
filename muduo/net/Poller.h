@@ -17,7 +17,9 @@
 
 #include <muduo/base/Timestamp.h>
 #include <muduo/net/EventLoop.h>
-
+/*
+IO复用的基类接口
+*/
 namespace muduo
 {
 namespace net

@@ -26,7 +26,7 @@ using namespace muduo::net;
 
 namespace
 {
-__thread EventLoop* t_loopInThisThread = 0;
+__thread EventLoop* t_loopInThisThread = 0; //每个线程一个
 
 const int kPollTimeMs = 10000;
 

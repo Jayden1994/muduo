@@ -1,6 +1,8 @@
 #ifndef MUDUO_BASE_COPYABLE_H
 #define MUDUO_BASE_COPYABLE_H
-
+/*
+空基类，用于标识值类型
+*/
 namespace muduo
 {
 

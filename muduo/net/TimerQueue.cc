@@ -189,7 +189,7 @@ void TimerQueue::handleRead()
   for (std::vector<Entry>::iterator it = expired.begin();
       it != expired.end(); ++it)
   {
-    it->second->run();
+    it->second->run();  //具体每个定时器到期时，调用其注册好的回调函数
   }
   callingExpiredTimers_ = false;
 

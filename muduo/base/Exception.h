@@ -8,7 +8,9 @@
 
 #include <muduo/base/Types.h>
 #include <exception>
-
+/*
+带stack trace的异常基类
+*/
 namespace muduo
 {
 

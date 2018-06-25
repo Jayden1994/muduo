@@ -10,7 +10,9 @@
 #include <assert.h>
 #include <stdlib.h> // atexit
 #include <pthread.h>
-
+/*
+线程安全的singleton
+*/
 namespace muduo
 {
 

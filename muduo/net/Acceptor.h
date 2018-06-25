@@ -16,7 +16,9 @@
 
 #include <muduo/net/Channel.h>
 #include <muduo/net/Socket.h>
-
+/*
+接收器，用于服务端接收连接
+*/
 namespace muduo
 {
 namespace net

@@ -6,7 +6,9 @@
 
 #include <iostream>
 #include <map>
-
+/*
+示范如何在程序中嵌入HTTP服务器
+*/
 using namespace muduo;
 using namespace muduo::net;
 

@@ -5,7 +5,9 @@
 #include <muduo/base/Types.h>
 
 #include <boost/operators.hpp>
-
+/*
+UTC时间戳
+*/
 namespace muduo
 {
 

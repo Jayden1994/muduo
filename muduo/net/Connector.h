@@ -17,7 +17,9 @@
 #include <boost/function.hpp>
 #include <boost/noncopyable.hpp>
 #include <boost/scoped_ptr.hpp>
-
+/*
+连接器，用于客户端发起连接
+*/
 namespace muduo
 {
 namespace net

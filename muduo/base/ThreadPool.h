@@ -16,7 +16,9 @@
 #include <boost/ptr_container/ptr_vector.hpp>
 
 #include <deque>
-
+/*
+简单的固定大小线程池
+*/
 namespace muduo
 {
 

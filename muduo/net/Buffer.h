@@ -23,7 +23,9 @@
 #include <assert.h>
 #include <string.h>
 //#include <unistd.h>  // ssize_t
-
+/*
+缓冲区
+*/
 namespace muduo
 {
 namespace net

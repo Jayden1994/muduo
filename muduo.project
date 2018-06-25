@@ -1,510 +1,528 @@
 <?xml version="1.0" encoding="utf-8"?>
-<CodeLite_Project Name="muduo" InternalType="">
-	<VirtualDirectory Name="src">
-		<VirtualDirectory Name="contrib">
-			<VirtualDirectory Name="hiredis">
-				<File Name="contrib/hiredis/Hiredis.cc"/>
-				<File Name="contrib/hiredis/mrediscli.cc"/>
-			</VirtualDirectory>
-			<VirtualDirectory Name="thrift">
-				<File Name="contrib/thrift/ThriftConnection.cc"/>
-				<File Name="contrib/thrift/ThriftServer.cc"/>
-			</VirtualDirectory>
-		</VirtualDirectory>
-		<VirtualDirectory Name="examples">
-			<VirtualDirectory Name="ace">
-				<VirtualDirectory Name="logging">
-					<File Name="examples/ace/logging/client.cc"/>
-					<File Name="examples/ace/logging/logrecord.pb.cc"/>
-					<File Name="examples/ace/logging/server.cc"/>
-				</VirtualDirectory>
-			</VirtualDirectory>
-			<VirtualDirectory Name="asio">
-				<VirtualDirectory Name="chat">
-					<File Name="examples/asio/chat/client.cc"/>
-					<File Name="examples/asio/chat/loadtest.cc"/>
-					<File Name="examples/asio/chat/server.cc"/>
-					<File Name="examples/asio/chat/server_threaded.cc"/>
-					<File Name="examples/asio/chat/server_threaded_efficient.cc"/>
-					<File Name="examples/asio/chat/server_threaded_highperformance.cc"/>
-				</VirtualDirectory>
-				<VirtualDirectory Name="tutorial">
-					<VirtualDirectory Name="timer2">
-						<File Name="examples/asio/tutorial/timer2/timer.cc"/>
-					</VirtualDirectory>
-					<VirtualDirectory Name="timer3">
-						<File Name="examples/asio/tutorial/timer3/timer.cc"/>
-					</VirtualDirectory>
-					<VirtualDirectory Name="timer4">
-						<File Name="examples/asio/tutorial/timer4/timer.cc"/>
-					</VirtualDirectory>
-					<VirtualDirectory Name="timer5">
-						<File Name="examples/asio/tutorial/timer5/timer.cc"/>
-					</VirtualDirectory>
-					<VirtualDirectory Name="timer6">
-						<File Name="examples/asio/tutorial/timer6/timer.cc"/>
-					</VirtualDirectory>
-				</VirtualDirectory>
-			</VirtualDirectory>
-			<VirtualDirectory Name="cdns">
-				<File Name="examples/cdns/Resolver.cc"/>
-				<File Name="examples/cdns/dns.cc"/>
-			</VirtualDirectory>
-			<VirtualDirectory Name="curl">
-				<File Name="examples/curl/Curl.cc"/>
-				<File Name="examples/curl/download.cc"/>
-				<File Name="examples/curl/mcurl.cc"/>
-			</VirtualDirectory>
-			<VirtualDirectory Name="fastcgi">
-				<File Name="examples/fastcgi/fastcgi.cc"/>
-				<File Name="examples/fastcgi/fastcgi_test.cc"/>
-			</VirtualDirectory>
-			<VirtualDirectory Name="filetransfer">
-				<File Name="examples/filetransfer/download.cc"/>
-				<File Name="examples/filetransfer/download2.cc"/>
-				<File Name="examples/filetransfer/download3.cc"/>
-			</VirtualDirectory>
-			<VirtualDirectory Name="hub">
-				<File Name="examples/hub/codec.cc"/>
-				<File Name="examples/hub/hub.cc"/>
-				<File Name="examples/hub/pub.cc"/>
-				<File Name="examples/hub/pubsub.cc"/>
-				<File Name="examples/hub/sub.cc"/>
-			</VirtualDirectory>
-			<VirtualDirectory Name="idleconnection">
-				<File Name="examples/idleconnection/echo.cc"/>
-				<File Name="examples/idleconnection/main.cc"/>
-				<File Name="examples/idleconnection/sortedlist.cc"/>
-			</VirtualDirectory>
-			<VirtualDirectory Name="maxconnection">
-				<File Name="examples/maxconnection/echo.cc"/>
-				<File Name="examples/maxconnection/main.cc"/>
-			</VirtualDirectory>
-			<VirtualDirectory Name="memcached">
-				<VirtualDirectory Name="server">
-					<File Name="examples/memcached/server/Item.cc"/>
-					<File Name="examples/memcached/server/MemcacheServer.cc"/>
-					<File Name="examples/memcached/server/Session.cc"/>
-					<File Name="examples/memcached/server/footprint_test.cc"/>
-				</VirtualDirectory>
-			</VirtualDirectory>
-			<VirtualDirectory Name="multiplexer">
-				<File Name="examples/multiplexer/demux.cc"/>
-				<File Name="examples/multiplexer/multiplexer.cc"/>
-				<File Name="examples/multiplexer/multiplexer_simple.cc"/>
-			</VirtualDirectory>
-			<VirtualDirectory Name="netty">
-				<VirtualDirectory Name="discard">
-					<File Name="examples/netty/discard/client.cc"/>
-					<File Name="examples/netty/discard/server.cc"/>
-				</VirtualDirectory>
-				<VirtualDirectory Name="echo">
-					<File Name="examples/netty/echo/client.cc"/>
-					<File Name="examples/netty/echo/server.cc"/>
-					<File Name="examples/netty/echo/server2.cc"/>
-				</VirtualDirectory>
-				<VirtualDirectory Name="uptime">
-					<File Name="examples/netty/uptime/uptime.cc"/>
-				</VirtualDirectory>
-			</VirtualDirectory>
-			<VirtualDirectory Name="pingpong">
-				<File Name="examples/pingpong/bench.cc"/>
-				<File Name="examples/pingpong/client.cc"/>
-				<File Name="examples/pingpong/server.cc"/>
-			</VirtualDirectory>
-			<VirtualDirectory Name="procmon">
-				<File Name="examples/procmon/dummyload.cc"/>
-				<File Name="examples/procmon/plot.cc"/>
-				<File Name="examples/procmon/plot_test.cc"/>
-				<File Name="examples/procmon/procmon.cc"/>
-			</VirtualDirectory>
-			<VirtualDirectory Name="protobuf">
-				<VirtualDirectory Name="codec">
-					<File Name="examples/protobuf/codec/client.cc"/>
-					<File Name="examples/protobuf/codec/codec.cc"/>
-					<File Name="examples/protobuf/codec/codec_test.cc"/>
-					<File Name="examples/protobuf/codec/dispatcher_lite_test.cc"/>
-					<File Name="examples/protobuf/codec/dispatcher_test.cc"/>
-					<File Name="examples/protobuf/codec/query.pb.cc"/>
-					<File Name="examples/protobuf/codec/server.cc"/>
-				</VirtualDirectory>
-				<VirtualDirectory Name="resolver">
-					<File Name="examples/protobuf/resolver/client.cc"/>
-					<File Name="examples/protobuf/resolver/resolver.pb.cc"/>
-					<File Name="examples/protobuf/resolver/server.cc"/>
-				</VirtualDirectory>
-				<VirtualDirectory Name="rpc">
-					<File Name="examples/protobuf/rpc/client.cc"/>
-					<File Name="examples/protobuf/rpc/server.cc"/>
-					<File Name="examples/protobuf/rpc/sudoku.pb.cc"/>
-				</VirtualDirectory>
-				<VirtualDirectory Name="rpcbalancer">
-					<File Name="examples/protobuf/rpcbalancer/balancer.cc"/>
-					<File Name="examples/protobuf/rpcbalancer/balancer_raw.cc"/>
-				</VirtualDirectory>
-				<VirtualDirectory Name="rpcbench">
-					<File Name="examples/protobuf/rpcbench/client.cc"/>
-					<File Name="examples/protobuf/rpcbench/echo.pb.cc"/>
-					<File Name="examples/protobuf/rpcbench/server.cc"/>
-				</VirtualDirectory>
-			</VirtualDirectory>
-			<VirtualDirectory Name="roundtrip">
-				<File Name="examples/roundtrip/roundtrip.cc"/>
-				<File Name="examples/roundtrip/roundtrip_udp.cc"/>
-			</VirtualDirectory>
-			<VirtualDirectory Name="shorturl">
-				<File Name="examples/shorturl/shorturl.cc"/>
-			</VirtualDirectory>
-			<VirtualDirectory Name="simple">
-				<VirtualDirectory Name="allinone">
-					<File Name="examples/simple/allinone/allinone.cc"/>
-				</VirtualDirectory>
-				<VirtualDirectory Name="chargen">
-					<File Name="examples/simple/chargen/chargen.cc"/>
-					<File Name="examples/simple/chargen/main.cc"/>
-				</VirtualDirectory>
-				<VirtualDirectory Name="chargenclient">
-					<File Name="examples/simple/chargenclient/chargenclient.cc"/>
-				</VirtualDirectory>
-				<VirtualDirectory Name="daytime">
-					<File Name="examples/simple/daytime/daytime.cc"/>
-					<File Name="examples/simple/daytime/main.cc"/>
-				</VirtualDirectory>
-				<VirtualDirectory Name="discard">
-					<File Name="examples/simple/discard/discard.cc"/>
-					<File Name="examples/simple/discard/main.cc"/>
-				</VirtualDirectory>
-				<VirtualDirectory Name="echo">
-					<File Name="examples/simple/echo/echo.cc"/>
-					<File Name="examples/simple/echo/main.cc"/>
-				</VirtualDirectory>
-				<VirtualDirectory Name="time">
-					<File Name="examples/simple/time/main.cc"/>
-					<File Name="examples/simple/time/time.cc"/>
-				</VirtualDirectory>
-				<VirtualDirectory Name="timeclient">
-					<File Name="examples/simple/timeclient/timeclient.cc"/>
-				</VirtualDirectory>
-			</VirtualDirectory>
-			<VirtualDirectory Name="socks4a">
-				<File Name="examples/socks4a/balancer.cc"/>
-				<File Name="examples/socks4a/socks4a.cc"/>
-				<File Name="examples/socks4a/tcprelay.cc"/>
-			</VirtualDirectory>
-			<VirtualDirectory Name="sudoku">
-				<File Name="examples/sudoku/batch.cc"/>
-				<File Name="examples/sudoku/loadtest.cc"/>
-				<File Name="examples/sudoku/pipeline.cc"/>
-				<File Name="examples/sudoku/server_basic.cc"/>
-				<File Name="examples/sudoku/server_hybrid.cc"/>
-				<File Name="examples/sudoku/server_multiloop.cc"/>
-				<File Name="examples/sudoku/server_prod.cc"/>
-				<File Name="examples/sudoku/server_threadpool.cc"/>
-				<File Name="examples/sudoku/sudoku.cc"/>
-			</VirtualDirectory>
-			<VirtualDirectory Name="twisted">
-				<VirtualDirectory Name="finger">
-					<File Name="examples/twisted/finger/finger01.cc"/>
-					<File Name="examples/twisted/finger/finger02.cc"/>
-					<File Name="examples/twisted/finger/finger03.cc"/>
-					<File Name="examples/twisted/finger/finger04.cc"/>
-					<File Name="examples/twisted/finger/finger05.cc"/>
-					<File Name="examples/twisted/finger/finger06.cc"/>
-					<File Name="examples/twisted/finger/finger07.cc"/>
-				</VirtualDirectory>
-			</VirtualDirectory>
-			<VirtualDirectory Name="wordcount">
-				<File Name="examples/wordcount/hasher.cc"/>
-				<File Name="examples/wordcount/receiver.cc"/>
-			</VirtualDirectory>
-			<VirtualDirectory Name="zeromq">
-				<File Name="examples/zeromq/local_lat.cc"/>
-				<File Name="examples/zeromq/remote_lat.cc"/>
-			</VirtualDirectory>
-		</VirtualDirectory>
-		<VirtualDirectory Name="muduo">
-			<VirtualDirectory Name="base">
-				<File Name="muduo/base/AsyncLogging.cc"/>
-				<File Name="muduo/base/Condition.cc"/>
-				<File Name="muduo/base/CountDownLatch.cc"/>
-				<File Name="muduo/base/Date.cc"/>
-				<File Name="muduo/base/Exception.cc"/>
-				<File Name="muduo/base/FileUtil.cc"/>
-				<File Name="muduo/base/LogFile.cc"/>
-				<File Name="muduo/base/LogStream.cc"/>
-				<File Name="muduo/base/Logging.cc"/>
-				<File Name="muduo/base/ProcessInfo.cc"/>
-				<File Name="muduo/base/Thread.cc"/>
-				<File Name="muduo/base/ThreadPool.cc"/>
-				<File Name="muduo/base/TimeZone.cc"/>
-				<File Name="muduo/base/Timestamp.cc"/>
-				<VirtualDirectory Name="tests">
-					<File Name="muduo/base/tests/AsyncLogging_test.cc"/>
-					<File Name="muduo/base/tests/Atomic_unittest.cc"/>
-					<File Name="muduo/base/tests/BlockingQueue_bench.cc"/>
-					<File Name="muduo/base/tests/BlockingQueue_test.cc"/>
-					<File Name="muduo/base/tests/BoundedBlockingQueue_test.cc"/>
-					<File Name="muduo/base/tests/Date_unittest.cc"/>
-					<File Name="muduo/base/tests/Exception_test.cc"/>
-					<File Name="muduo/base/tests/FileUtil_test.cc"/>
-					<File Name="muduo/base/tests/Fork_test.cc"/>
-					<File Name="muduo/base/tests/LogFile_test.cc"/>
-					<File Name="muduo/base/tests/LogStream_bench.cc"/>
-					<File Name="muduo/base/tests/Logging_test.cc"/>
-					<File Name="muduo/base/tests/Mutex_test.cc"/>
-					<File Name="muduo/base/tests/ProcessInfo_test.cc"/>
-					<File Name="muduo/base/tests/SingletonThreadLocal_test.cc"/>
-					<File Name="muduo/base/tests/Singleton_test.cc"/>
-					<File Name="muduo/base/tests/ThreadLocalSingleton_test.cc"/>
-					<File Name="muduo/base/tests/ThreadLocal_test.cc"/>
-					<File Name="muduo/base/tests/ThreadPool_test.cc"/>
-					<File Name="muduo/base/tests/Thread_bench.cc"/>
-					<File Name="muduo/base/tests/Thread_test.cc"/>
-					<File Name="muduo/base/tests/TimeZone_unittest.cc"/>
-					<File Name="muduo/base/tests/Timestamp_unittest.cc"/>
-				</VirtualDirectory>
-			</VirtualDirectory>
-			<VirtualDirectory Name="net">
-				<File Name="muduo/net/Acceptor.cc"/>
-				<File Name="muduo/net/Buffer.cc"/>
-				<File Name="muduo/net/Channel.cc"/>
-				<File Name="muduo/net/Connector.cc"/>
-				<File Name="muduo/net/EventLoop.cc"/>
-				<File Name="muduo/net/EventLoopThread.cc"/>
-				<File Name="muduo/net/EventLoopThreadPool.cc"/>
-				<File Name="muduo/net/InetAddress.cc"/>
-				<File Name="muduo/net/Poller.cc"/>
-				<File Name="muduo/net/Socket.cc"/>
-				<File Name="muduo/net/SocketsOps.cc"/>
-				<File Name="muduo/net/TcpClient.cc"/>
-				<File Name="muduo/net/TcpConnection.cc"/>
-				<File Name="muduo/net/TcpServer.cc"/>
-				<File Name="muduo/net/Timer.cc"/>
-				<File Name="muduo/net/TimerQueue.cc"/>
-				<VirtualDirectory Name="http">
-					<File Name="muduo/net/http/HttpContext.cc"/>
-					<File Name="muduo/net/http/HttpResponse.cc"/>
-					<File Name="muduo/net/http/HttpServer.cc"/>
-					<VirtualDirectory Name="tests">
-						<File Name="muduo/net/http/tests/HttpServer_test.cc"/>
-					</VirtualDirectory>
-				</VirtualDirectory>
-				<VirtualDirectory Name="inspect">
-					<File Name="muduo/net/inspect/Inspector.cc"/>
-					<File Name="muduo/net/inspect/PerformanceInspector.cc"/>
-					<File Name="muduo/net/inspect/ProcessInspector.cc"/>
-					<File Name="muduo/net/inspect/SystemInspector.cc"/>
-					<VirtualDirectory Name="tests">
-						<File Name="muduo/net/inspect/tests/Inspector_test.cc"/>
-					</VirtualDirectory>
-				</VirtualDirectory>
-				<VirtualDirectory Name="poller">
-					<File Name="muduo/net/poller/DefaultPoller.cc"/>
-					<File Name="muduo/net/poller/EPollPoller.cc"/>
-					<File Name="muduo/net/poller/PollPoller.cc"/>
-				</VirtualDirectory>
-				<VirtualDirectory Name="protobuf">
-					<File Name="muduo/net/protobuf/ProtobufCodecLite.cc"/>
-				</VirtualDirectory>
-				<VirtualDirectory Name="protorpc">
-					<File Name="muduo/net/protorpc/RpcChannel.cc"/>
-					<File Name="muduo/net/protorpc/RpcCodec.cc"/>
-					<File Name="muduo/net/protorpc/RpcCodec_test.cc"/>
-					<File Name="muduo/net/protorpc/RpcServer.cc"/>
-					<File Name="muduo/net/protorpc/rpc.pb.cc"/>
-				</VirtualDirectory>
-				<VirtualDirectory Name="tests">
-					<File Name="muduo/net/tests/Channel_test.cc"/>
-					<File Name="muduo/net/tests/EchoClient_unittest.cc"/>
-					<File Name="muduo/net/tests/EchoServer_unittest.cc"/>
-					<File Name="muduo/net/tests/EventLoopThreadPool_unittest.cc"/>
-					<File Name="muduo/net/tests/EventLoopThread_unittest.cc"/>
-					<File Name="muduo/net/tests/EventLoop_unittest.cc"/>
-					<File Name="muduo/net/tests/TcpClient_reg1.cc"/>
-					<File Name="muduo/net/tests/TcpClient_reg2.cc"/>
-					<File Name="muduo/net/tests/TcpClient_reg3.cc"/>
-					<File Name="muduo/net/tests/TimerQueue_unittest.cc"/>
-				</VirtualDirectory>
-			</VirtualDirectory>
-		</VirtualDirectory>
-	</VirtualDirectory>
-	<VirtualDirectory Name="include">
-		<VirtualDirectory Name="contrib">
-			<VirtualDirectory Name="hiredis">
-				<File Name="contrib/hiredis/Hiredis.h"/>
-			</VirtualDirectory>
-			<VirtualDirectory Name="thrift">
-				<File Name="contrib/thrift/ThriftConnection.h"/>
-				<File Name="contrib/thrift/ThriftServer.h"/>
-			</VirtualDirectory>
-		</VirtualDirectory>
-		<VirtualDirectory Name="examples">
-			<VirtualDirectory Name="ace">
-				<VirtualDirectory Name="logging">
-					<File Name="examples/ace/logging/logrecord.pb.cc.rule"/>
-				</VirtualDirectory>
-			</VirtualDirectory>
-			<VirtualDirectory Name="cdns">
-				<File Name="examples/cdns/Resolver.h"/>
-			</VirtualDirectory>
-			<VirtualDirectory Name="curl">
-				<File Name="examples/curl/Curl.h"/>
-			</VirtualDirectory>
-			<VirtualDirectory Name="fastcgi">
-				<File Name="examples/fastcgi/fastcgi.h"/>
-			</VirtualDirectory>
-			<VirtualDirectory Name="hub">
-				<File Name="examples/hub/codec.h"/>
-				<File Name="examples/hub/pubsub.h"/>
-			</VirtualDirectory>
-			<VirtualDirectory Name="idleconnection">
-				<File Name="examples/idleconnection/echo.h"/>
-			</VirtualDirectory>
-			<VirtualDirectory Name="maxconnection">
-				<File Name="examples/maxconnection/echo.h"/>
-			</VirtualDirectory>
-			<VirtualDirectory Name="memcached">
-				<VirtualDirectory Name="server">
-					<File Name="examples/memcached/server/Item.h"/>
-					<File Name="examples/memcached/server/MemcacheServer.h"/>
-					<File Name="examples/memcached/server/Session.h"/>
-				</VirtualDirectory>
-			</VirtualDirectory>
-			<VirtualDirectory Name="procmon">
-				<File Name="examples/procmon/plot.h"/>
-			</VirtualDirectory>
-			<VirtualDirectory Name="protobuf">
-				<VirtualDirectory Name="codec">
-					<File Name="examples/protobuf/codec/codec.h"/>
-					<File Name="examples/protobuf/codec/query.pb.cc.rule"/>
-				</VirtualDirectory>
-				<VirtualDirectory Name="resolver">
-					<File Name="examples/protobuf/resolver/resolver.pb.cc.rule"/>
-				</VirtualDirectory>
-				<VirtualDirectory Name="rpc">
-					<File Name="examples/protobuf/rpc/sudoku.pb.cc.rule"/>
-				</VirtualDirectory>
-				<VirtualDirectory Name="rpcbench">
-					<File Name="examples/protobuf/rpcbench/echo.pb.cc.rule"/>
-				</VirtualDirectory>
-			</VirtualDirectory>
-			<VirtualDirectory Name="simple">
-				<VirtualDirectory Name="chargen">
-					<File Name="examples/simple/chargen/chargen.h"/>
-				</VirtualDirectory>
-				<VirtualDirectory Name="daytime">
-					<File Name="examples/simple/daytime/daytime.h"/>
-				</VirtualDirectory>
-				<VirtualDirectory Name="discard">
-					<File Name="examples/simple/discard/discard.h"/>
-				</VirtualDirectory>
-				<VirtualDirectory Name="echo">
-					<File Name="examples/simple/echo/echo.h"/>
-				</VirtualDirectory>
-				<VirtualDirectory Name="time">
-					<File Name="examples/simple/time/time.h"/>
-				</VirtualDirectory>
-			</VirtualDirectory>
-			<VirtualDirectory Name="sudoku">
-				<File Name="examples/sudoku/sudoku.h"/>
-			</VirtualDirectory>
-		</VirtualDirectory>
-		<VirtualDirectory Name="muduo">
-			<VirtualDirectory Name="base">
-				<File Name="muduo/base/AsyncLogging.h"/>
-				<File Name="muduo/base/Condition.h"/>
-				<File Name="muduo/base/CountDownLatch.h"/>
-				<File Name="muduo/base/Date.h"/>
-				<File Name="muduo/base/Exception.h"/>
-				<File Name="muduo/base/FileUtil.h"/>
-				<File Name="muduo/base/LogFile.h"/>
-				<File Name="muduo/base/LogStream.h"/>
-				<File Name="muduo/base/Logging.h"/>
-				<File Name="muduo/base/ProcessInfo.h"/>
-				<File Name="muduo/base/Thread.h"/>
-				<File Name="muduo/base/ThreadPool.h"/>
-				<File Name="muduo/base/TimeZone.h"/>
-				<File Name="muduo/base/Timestamp.h"/>
-			</VirtualDirectory>
-			<VirtualDirectory Name="net">
-				<File Name="muduo/net/Acceptor.h"/>
-				<File Name="muduo/net/Buffer.h"/>
-				<File Name="muduo/net/Channel.h"/>
-				<File Name="muduo/net/Connector.h"/>
-				<File Name="muduo/net/EventLoop.h"/>
-				<File Name="muduo/net/EventLoopThread.h"/>
-				<File Name="muduo/net/EventLoopThreadPool.h"/>
-				<File Name="muduo/net/InetAddress.h"/>
-				<File Name="muduo/net/Poller.h"/>
-				<File Name="muduo/net/Socket.h"/>
-				<File Name="muduo/net/SocketsOps.h"/>
-				<File Name="muduo/net/TcpClient.h"/>
-				<File Name="muduo/net/TcpConnection.h"/>
-				<File Name="muduo/net/TcpServer.h"/>
-				<File Name="muduo/net/Timer.h"/>
-				<File Name="muduo/net/TimerQueue.h"/>
-				<VirtualDirectory Name="http">
-					<File Name="muduo/net/http/HttpContext.h"/>
-					<File Name="muduo/net/http/HttpResponse.h"/>
-					<File Name="muduo/net/http/HttpServer.h"/>
-				</VirtualDirectory>
-				<VirtualDirectory Name="inspect">
-					<File Name="muduo/net/inspect/Inspector.h"/>
-					<File Name="muduo/net/inspect/PerformanceInspector.h"/>
-					<File Name="muduo/net/inspect/ProcessInspector.h"/>
-					<File Name="muduo/net/inspect/SystemInspector.h"/>
-				</VirtualDirectory>
-				<VirtualDirectory Name="poller">
-					<File Name="muduo/net/poller/EPollPoller.h"/>
-					<File Name="muduo/net/poller/PollPoller.h"/>
-				</VirtualDirectory>
-				<VirtualDirectory Name="protobuf">
-					<File Name="muduo/net/protobuf/ProtobufCodecLite.h"/>
-				</VirtualDirectory>
-				<VirtualDirectory Name="protorpc">
-					<File Name="muduo/net/protorpc/RpcChannel.h"/>
-					<File Name="muduo/net/protorpc/RpcCodec.h"/>
-					<File Name="muduo/net/protorpc/RpcServer.h"/>
-					<File Name="muduo/net/protorpc/rpc.pb.cc.rule"/>
-				</VirtualDirectory>
-			</VirtualDirectory>
-		</VirtualDirectory>
-	</VirtualDirectory>
-	<Settings Type="">
-		<Configuration Name="Release" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
-			<Compiler Options="-g" Required="yes" PreCompiledHeader="">
-				<IncludePath Value="."/>
-			</Compiler>
-			<Linker Options="" Required="yes"/>
-			<ResourceCompiler Options="" Required="no"/>
-			<General OutputFile="bin/$(ProjectName)" IntermediateDirectory="./" Command="./$(ProjectName)" CommandArguments="" WorkingDirectory="bin" PauseExecWhenProcTerminates="yes"/>
-			<Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
-				<PostConnectCommands/>
-				<StartupCommands/>
-			</Debugger>
-			<PreBuild/>
-			<PostBuild/>
-			<CustomBuild Enabled="yes">
-				<RebuildCommand>/usr/bin/make -j 4 clean &amp;&amp; /usr/bin/make -j 4</RebuildCommand>
-				<CleanCommand>/usr/bin/make -j 4 clean</CleanCommand>
-				<BuildCommand>/usr/bin/make -j 4</BuildCommand>
-				<SingleFileCommand>/usr/bin/make -f$(ProjectPath)/Makefile $(CurrentFileName).cpp.o</SingleFileCommand>
-				<PreprocessFileCommand/>
-				<WorkingDirectory>$(WorkspacePath)</WorkingDirectory>
-			</CustomBuild>
-			<AdditionalRules>
-				<CustomPostBuild/>
-				<CustomPreBuild/>
-			</AdditionalRules>
-		</Configuration>
-		<GlobalSettings>
-			<Compiler Options="">
-				<IncludePath Value="."/>
-			</Compiler>
-			<Linker Options="">
-				<LibraryPath Value="."/>
-			</Linker>
-			<ResourceCompiler Options=""/>
-		</GlobalSettings>
-	</Settings>
+<CodeLite_Project Name="muduo" InternalType="" Version="10.0.0">
+  <VirtualDirectory Name="src">
+    <VirtualDirectory Name="contrib">
+      <VirtualDirectory Name="hiredis">
+        <File Name="contrib/hiredis/Hiredis.cc"/>
+        <File Name="contrib/hiredis/mrediscli.cc"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="thrift">
+        <File Name="contrib/thrift/ThriftConnection.cc"/>
+        <File Name="contrib/thrift/ThriftServer.cc"/>
+      </VirtualDirectory>
+    </VirtualDirectory>
+    <VirtualDirectory Name="examples">
+      <VirtualDirectory Name="ace">
+        <VirtualDirectory Name="logging">
+          <File Name="examples/ace/logging/client.cc"/>
+          <File Name="examples/ace/logging/logrecord.pb.cc"/>
+          <File Name="examples/ace/logging/server.cc"/>
+        </VirtualDirectory>
+      </VirtualDirectory>
+      <VirtualDirectory Name="asio">
+        <VirtualDirectory Name="chat">
+          <File Name="examples/asio/chat/client.cc"/>
+          <File Name="examples/asio/chat/loadtest.cc"/>
+          <File Name="examples/asio/chat/server.cc"/>
+          <File Name="examples/asio/chat/server_threaded.cc"/>
+          <File Name="examples/asio/chat/server_threaded_efficient.cc"/>
+          <File Name="examples/asio/chat/server_threaded_highperformance.cc"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="tutorial">
+          <VirtualDirectory Name="timer2">
+            <File Name="examples/asio/tutorial/timer2/timer.cc"/>
+          </VirtualDirectory>
+          <VirtualDirectory Name="timer3">
+            <File Name="examples/asio/tutorial/timer3/timer.cc"/>
+          </VirtualDirectory>
+          <VirtualDirectory Name="timer4">
+            <File Name="examples/asio/tutorial/timer4/timer.cc"/>
+          </VirtualDirectory>
+          <VirtualDirectory Name="timer5">
+            <File Name="examples/asio/tutorial/timer5/timer.cc"/>
+          </VirtualDirectory>
+          <VirtualDirectory Name="timer6">
+            <File Name="examples/asio/tutorial/timer6/timer.cc"/>
+          </VirtualDirectory>
+        </VirtualDirectory>
+      </VirtualDirectory>
+      <VirtualDirectory Name="cdns">
+        <File Name="examples/cdns/Resolver.cc"/>
+        <File Name="examples/cdns/dns.cc"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="curl">
+        <File Name="examples/curl/Curl.cc"/>
+        <File Name="examples/curl/download.cc"/>
+        <File Name="examples/curl/mcurl.cc"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="fastcgi">
+        <File Name="examples/fastcgi/fastcgi.cc"/>
+        <File Name="examples/fastcgi/fastcgi_test.cc"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="filetransfer">
+        <File Name="examples/filetransfer/download.cc"/>
+        <File Name="examples/filetransfer/download2.cc"/>
+        <File Name="examples/filetransfer/download3.cc"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="hub">
+        <File Name="examples/hub/codec.cc"/>
+        <File Name="examples/hub/hub.cc"/>
+        <File Name="examples/hub/pub.cc"/>
+        <File Name="examples/hub/pubsub.cc"/>
+        <File Name="examples/hub/sub.cc"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="idleconnection">
+        <File Name="examples/idleconnection/echo.cc"/>
+        <File Name="examples/idleconnection/main.cc"/>
+        <File Name="examples/idleconnection/sortedlist.cc"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="maxconnection">
+        <File Name="examples/maxconnection/echo.cc"/>
+        <File Name="examples/maxconnection/main.cc"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="memcached">
+        <VirtualDirectory Name="server">
+          <File Name="examples/memcached/server/Item.cc"/>
+          <File Name="examples/memcached/server/MemcacheServer.cc"/>
+          <File Name="examples/memcached/server/Session.cc"/>
+          <File Name="examples/memcached/server/footprint_test.cc"/>
+        </VirtualDirectory>
+      </VirtualDirectory>
+      <VirtualDirectory Name="multiplexer">
+        <File Name="examples/multiplexer/demux.cc"/>
+        <File Name="examples/multiplexer/multiplexer.cc"/>
+        <File Name="examples/multiplexer/multiplexer_simple.cc"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="netty">
+        <VirtualDirectory Name="discard">
+          <File Name="examples/netty/discard/client.cc"/>
+          <File Name="examples/netty/discard/server.cc"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="echo">
+          <File Name="examples/netty/echo/client.cc"/>
+          <File Name="examples/netty/echo/server.cc"/>
+          <File Name="examples/netty/echo/server2.cc"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="uptime">
+          <File Name="examples/netty/uptime/uptime.cc"/>
+        </VirtualDirectory>
+      </VirtualDirectory>
+      <VirtualDirectory Name="pingpong">
+        <File Name="examples/pingpong/bench.cc"/>
+        <File Name="examples/pingpong/client.cc"/>
+        <File Name="examples/pingpong/server.cc"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="procmon">
+        <File Name="examples/procmon/dummyload.cc"/>
+        <File Name="examples/procmon/plot.cc"/>
+        <File Name="examples/procmon/plot_test.cc"/>
+        <File Name="examples/procmon/procmon.cc"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="protobuf">
+        <VirtualDirectory Name="codec">
+          <File Name="examples/protobuf/codec/client.cc"/>
+          <File Name="examples/protobuf/codec/codec.cc"/>
+          <File Name="examples/protobuf/codec/codec_test.cc"/>
+          <File Name="examples/protobuf/codec/dispatcher_lite_test.cc"/>
+          <File Name="examples/protobuf/codec/dispatcher_test.cc"/>
+          <File Name="examples/protobuf/codec/query.pb.cc"/>
+          <File Name="examples/protobuf/codec/server.cc"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="resolver">
+          <File Name="examples/protobuf/resolver/client.cc"/>
+          <File Name="examples/protobuf/resolver/resolver.pb.cc"/>
+          <File Name="examples/protobuf/resolver/server.cc"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="rpc">
+          <File Name="examples/protobuf/rpc/client.cc"/>
+          <File Name="examples/protobuf/rpc/server.cc"/>
+          <File Name="examples/protobuf/rpc/sudoku.pb.cc"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="rpcbalancer">
+          <File Name="examples/protobuf/rpcbalancer/balancer.cc"/>
+          <File Name="examples/protobuf/rpcbalancer/balancer_raw.cc"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="rpcbench">
+          <File Name="examples/protobuf/rpcbench/client.cc"/>
+          <File Name="examples/protobuf/rpcbench/echo.pb.cc"/>
+          <File Name="examples/protobuf/rpcbench/server.cc"/>
+        </VirtualDirectory>
+      </VirtualDirectory>
+      <VirtualDirectory Name="roundtrip">
+        <File Name="examples/roundtrip/roundtrip.cc"/>
+        <File Name="examples/roundtrip/roundtrip_udp.cc"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="shorturl">
+        <File Name="examples/shorturl/shorturl.cc"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="simple">
+        <VirtualDirectory Name="allinone">
+          <File Name="examples/simple/allinone/allinone.cc"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="chargen">
+          <File Name="examples/simple/chargen/chargen.cc"/>
+          <File Name="examples/simple/chargen/main.cc"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="chargenclient">
+          <File Name="examples/simple/chargenclient/chargenclient.cc"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="daytime">
+          <File Name="examples/simple/daytime/daytime.cc"/>
+          <File Name="examples/simple/daytime/main.cc"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="discard">
+          <File Name="examples/simple/discard/discard.cc"/>
+          <File Name="examples/simple/discard/main.cc"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="echo">
+          <File Name="examples/simple/echo/echo.cc"/>
+          <File Name="examples/simple/echo/main.cc"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="time">
+          <File Name="examples/simple/time/main.cc"/>
+          <File Name="examples/simple/time/time.cc"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="timeclient">
+          <File Name="examples/simple/timeclient/timeclient.cc"/>
+        </VirtualDirectory>
+      </VirtualDirectory>
+      <VirtualDirectory Name="socks4a">
+        <File Name="examples/socks4a/balancer.cc"/>
+        <File Name="examples/socks4a/socks4a.cc"/>
+        <File Name="examples/socks4a/tcprelay.cc"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="sudoku">
+        <File Name="examples/sudoku/batch.cc"/>
+        <File Name="examples/sudoku/loadtest.cc"/>
+        <File Name="examples/sudoku/pipeline.cc"/>
+        <File Name="examples/sudoku/server_basic.cc"/>
+        <File Name="examples/sudoku/server_hybrid.cc"/>
+        <File Name="examples/sudoku/server_multiloop.cc"/>
+        <File Name="examples/sudoku/server_prod.cc"/>
+        <File Name="examples/sudoku/server_threadpool.cc"/>
+        <File Name="examples/sudoku/sudoku.cc"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="twisted">
+        <VirtualDirectory Name="finger">
+          <File Name="examples/twisted/finger/finger01.cc"/>
+          <File Name="examples/twisted/finger/finger02.cc"/>
+          <File Name="examples/twisted/finger/finger03.cc"/>
+          <File Name="examples/twisted/finger/finger04.cc"/>
+          <File Name="examples/twisted/finger/finger05.cc"/>
+          <File Name="examples/twisted/finger/finger06.cc"/>
+          <File Name="examples/twisted/finger/finger07.cc"/>
+        </VirtualDirectory>
+      </VirtualDirectory>
+      <VirtualDirectory Name="wordcount">
+        <File Name="examples/wordcount/hasher.cc"/>
+        <File Name="examples/wordcount/receiver.cc"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="zeromq">
+        <File Name="examples/zeromq/local_lat.cc"/>
+        <File Name="examples/zeromq/remote_lat.cc"/>
+      </VirtualDirectory>
+    </VirtualDirectory>
+    <VirtualDirectory Name="muduo">
+      <VirtualDirectory Name="base">
+        <File Name="muduo/base/AsyncLogging.cc"/>
+        <File Name="muduo/base/Condition.cc"/>
+        <File Name="muduo/base/CountDownLatch.cc"/>
+        <File Name="muduo/base/Date.cc"/>
+        <File Name="muduo/base/Exception.cc"/>
+        <File Name="muduo/base/FileUtil.cc"/>
+        <File Name="muduo/base/LogFile.cc"/>
+        <File Name="muduo/base/LogStream.cc"/>
+        <File Name="muduo/base/Logging.cc"/>
+        <File Name="muduo/base/ProcessInfo.cc"/>
+        <File Name="muduo/base/Thread.cc"/>
+        <File Name="muduo/base/ThreadPool.cc"/>
+        <File Name="muduo/base/TimeZone.cc"/>
+        <File Name="muduo/base/Timestamp.cc"/>
+        <VirtualDirectory Name="tests">
+          <File Name="muduo/base/tests/AsyncLogging_test.cc"/>
+          <File Name="muduo/base/tests/Atomic_unittest.cc"/>
+          <File Name="muduo/base/tests/BlockingQueue_bench.cc"/>
+          <File Name="muduo/base/tests/BlockingQueue_test.cc"/>
+          <File Name="muduo/base/tests/BoundedBlockingQueue_test.cc"/>
+          <File Name="muduo/base/tests/Date_unittest.cc"/>
+          <File Name="muduo/base/tests/Exception_test.cc"/>
+          <File Name="muduo/base/tests/FileUtil_test.cc"/>
+          <File Name="muduo/base/tests/Fork_test.cc"/>
+          <File Name="muduo/base/tests/LogFile_test.cc"/>
+          <File Name="muduo/base/tests/LogStream_bench.cc"/>
+          <File Name="muduo/base/tests/Logging_test.cc"/>
+          <File Name="muduo/base/tests/Mutex_test.cc"/>
+          <File Name="muduo/base/tests/ProcessInfo_test.cc"/>
+          <File Name="muduo/base/tests/SingletonThreadLocal_test.cc"/>
+          <File Name="muduo/base/tests/Singleton_test.cc"/>
+          <File Name="muduo/base/tests/ThreadLocalSingleton_test.cc"/>
+          <File Name="muduo/base/tests/ThreadLocal_test.cc"/>
+          <File Name="muduo/base/tests/ThreadPool_test.cc"/>
+          <File Name="muduo/base/tests/Thread_bench.cc"/>
+          <File Name="muduo/base/tests/Thread_test.cc"/>
+          <File Name="muduo/base/tests/TimeZone_unittest.cc"/>
+          <File Name="muduo/base/tests/Timestamp_unittest.cc"/>
+        </VirtualDirectory>
+      </VirtualDirectory>
+      <VirtualDirectory Name="net">
+        <File Name="muduo/net/Acceptor.cc"/>
+        <File Name="muduo/net/Buffer.cc"/>
+        <File Name="muduo/net/Channel.cc"/>
+        <File Name="muduo/net/Connector.cc"/>
+        <File Name="muduo/net/EventLoop.cc"/>
+        <File Name="muduo/net/EventLoopThread.cc"/>
+        <File Name="muduo/net/EventLoopThreadPool.cc"/>
+        <File Name="muduo/net/InetAddress.cc"/>
+        <File Name="muduo/net/Poller.cc"/>
+        <File Name="muduo/net/Socket.cc"/>
+        <File Name="muduo/net/SocketsOps.cc"/>
+        <File Name="muduo/net/TcpClient.cc"/>
+        <File Name="muduo/net/TcpConnection.cc"/>
+        <File Name="muduo/net/TcpServer.cc"/>
+        <File Name="muduo/net/Timer.cc"/>
+        <File Name="muduo/net/TimerQueue.cc"/>
+        <VirtualDirectory Name="http">
+          <File Name="muduo/net/http/HttpContext.cc"/>
+          <File Name="muduo/net/http/HttpResponse.cc"/>
+          <File Name="muduo/net/http/HttpServer.cc"/>
+          <VirtualDirectory Name="tests">
+            <File Name="muduo/net/http/tests/HttpServer_test.cc"/>
+          </VirtualDirectory>
+        </VirtualDirectory>
+        <VirtualDirectory Name="inspect">
+          <File Name="muduo/net/inspect/Inspector.cc"/>
+          <File Name="muduo/net/inspect/PerformanceInspector.cc"/>
+          <File Name="muduo/net/inspect/ProcessInspector.cc"/>
+          <File Name="muduo/net/inspect/SystemInspector.cc"/>
+          <VirtualDirectory Name="tests">
+            <File Name="muduo/net/inspect/tests/Inspector_test.cc"/>
+          </VirtualDirectory>
+        </VirtualDirectory>
+        <VirtualDirectory Name="poller">
+          <File Name="muduo/net/poller/DefaultPoller.cc"/>
+          <File Name="muduo/net/poller/EPollPoller.cc"/>
+          <File Name="muduo/net/poller/PollPoller.cc"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="protobuf">
+          <File Name="muduo/net/protobuf/ProtobufCodecLite.cc"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="protorpc">
+          <File Name="muduo/net/protorpc/RpcChannel.cc"/>
+          <File Name="muduo/net/protorpc/RpcCodec.cc"/>
+          <File Name="muduo/net/protorpc/RpcCodec_test.cc"/>
+          <File Name="muduo/net/protorpc/RpcServer.cc"/>
+          <File Name="muduo/net/protorpc/rpc.pb.cc"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="tests">
+          <File Name="muduo/net/tests/Channel_test.cc"/>
+          <File Name="muduo/net/tests/EchoClient_unittest.cc"/>
+          <File Name="muduo/net/tests/EchoServer_unittest.cc"/>
+          <File Name="muduo/net/tests/EventLoopThreadPool_unittest.cc"/>
+          <File Name="muduo/net/tests/EventLoopThread_unittest.cc"/>
+          <File Name="muduo/net/tests/EventLoop_unittest.cc"/>
+          <File Name="muduo/net/tests/TcpClient_reg1.cc"/>
+          <File Name="muduo/net/tests/TcpClient_reg2.cc"/>
+          <File Name="muduo/net/tests/TcpClient_reg3.cc"/>
+          <File Name="muduo/net/tests/TimerQueue_unittest.cc"/>
+        </VirtualDirectory>
+      </VirtualDirectory>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="include">
+    <VirtualDirectory Name="contrib">
+      <VirtualDirectory Name="hiredis">
+        <File Name="contrib/hiredis/Hiredis.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="thrift">
+        <File Name="contrib/thrift/ThriftConnection.h"/>
+        <File Name="contrib/thrift/ThriftServer.h"/>
+      </VirtualDirectory>
+    </VirtualDirectory>
+    <VirtualDirectory Name="examples">
+      <VirtualDirectory Name="ace">
+        <VirtualDirectory Name="logging">
+          <File Name="examples/ace/logging/logrecord.pb.cc.rule"/>
+        </VirtualDirectory>
+      </VirtualDirectory>
+      <VirtualDirectory Name="cdns">
+        <File Name="examples/cdns/Resolver.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="curl">
+        <File Name="examples/curl/Curl.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="fastcgi">
+        <File Name="examples/fastcgi/fastcgi.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="hub">
+        <File Name="examples/hub/codec.h"/>
+        <File Name="examples/hub/pubsub.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="idleconnection">
+        <File Name="examples/idleconnection/echo.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="maxconnection">
+        <File Name="examples/maxconnection/echo.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="memcached">
+        <VirtualDirectory Name="server">
+          <File Name="examples/memcached/server/Item.h"/>
+          <File Name="examples/memcached/server/MemcacheServer.h"/>
+          <File Name="examples/memcached/server/Session.h"/>
+        </VirtualDirectory>
+      </VirtualDirectory>
+      <VirtualDirectory Name="procmon">
+        <File Name="examples/procmon/plot.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="protobuf">
+        <VirtualDirectory Name="codec">
+          <File Name="examples/protobuf/codec/codec.h"/>
+          <File Name="examples/protobuf/codec/query.pb.cc.rule"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="resolver">
+          <File Name="examples/protobuf/resolver/resolver.pb.cc.rule"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="rpc">
+          <File Name="examples/protobuf/rpc/sudoku.pb.cc.rule"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="rpcbench">
+          <File Name="examples/protobuf/rpcbench/echo.pb.cc.rule"/>
+        </VirtualDirectory>
+      </VirtualDirectory>
+      <VirtualDirectory Name="simple">
+        <VirtualDirectory Name="chargen">
+          <File Name="examples/simple/chargen/chargen.h"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="daytime">
+          <File Name="examples/simple/daytime/daytime.h"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="discard">
+          <File Name="examples/simple/discard/discard.h"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="echo">
+          <File Name="examples/simple/echo/echo.h"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="time">
+          <File Name="examples/simple/time/time.h"/>
+        </VirtualDirectory>
+      </VirtualDirectory>
+      <VirtualDirectory Name="sudoku">
+        <File Name="examples/sudoku/sudoku.h"/>
+      </VirtualDirectory>
+    </VirtualDirectory>
+    <VirtualDirectory Name="muduo">
+      <VirtualDirectory Name="base">
+        <File Name="muduo/base/AsyncLogging.h"/>
+        <File Name="muduo/base/Condition.h"/>
+        <File Name="muduo/base/CountDownLatch.h"/>
+        <File Name="muduo/base/Date.h"/>
+        <File Name="muduo/base/Exception.h"/>
+        <File Name="muduo/base/FileUtil.h"/>
+        <File Name="muduo/base/LogFile.h"/>
+        <File Name="muduo/base/LogStream.h"/>
+        <File Name="muduo/base/Logging.h"/>
+        <File Name="muduo/base/ProcessInfo.h"/>
+        <File Name="muduo/base/Thread.h"/>
+        <File Name="muduo/base/ThreadPool.h"/>
+        <File Name="muduo/base/TimeZone.h"/>
+        <File Name="muduo/base/Timestamp.h"/>
+        <File Name="muduo/base/Atomic.h"/>
+        <File Name="muduo/base/WeakCallback.h"/>
+        <File Name="muduo/base/Types.h"/>
+        <File Name="muduo/base/ThreadLocalSingleton.h"/>
+        <File Name="muduo/base/ThreadLocal.h"/>
+        <File Name="muduo/base/StringPiece.h"/>
+        <File Name="muduo/base/Singleton.h"/>
+        <File Name="muduo/base/Mutex.h"/>
+        <File Name="muduo/base/GzipFile.h"/>
+        <File Name="muduo/base/CurrentThread.h"/>
+        <File Name="muduo/base/copyable.h"/>
+        <File Name="muduo/base/BoundedBlockingQueue.h"/>
+        <File Name="muduo/base/BlockingQueue.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="net">
+        <File Name="muduo/net/Acceptor.h"/>
+        <File Name="muduo/net/Buffer.h"/>
+        <File Name="muduo/net/Channel.h"/>
+        <File Name="muduo/net/Connector.h"/>
+        <File Name="muduo/net/EventLoop.h"/>
+        <File Name="muduo/net/EventLoopThread.h"/>
+        <File Name="muduo/net/EventLoopThreadPool.h"/>
+        <File Name="muduo/net/InetAddress.h"/>
+        <File Name="muduo/net/Poller.h"/>
+        <File Name="muduo/net/Socket.h"/>
+        <File Name="muduo/net/SocketsOps.h"/>
+        <File Name="muduo/net/TcpClient.h"/>
+        <File Name="muduo/net/TcpConnection.h"/>
+        <File Name="muduo/net/TcpServer.h"/>
+        <File Name="muduo/net/Timer.h"/>
+        <File Name="muduo/net/TimerQueue.h"/>
+        <VirtualDirectory Name="http">
+          <File Name="muduo/net/http/HttpContext.h"/>
+          <File Name="muduo/net/http/HttpResponse.h"/>
+          <File Name="muduo/net/http/HttpServer.h"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="inspect">
+          <File Name="muduo/net/inspect/Inspector.h"/>
+          <File Name="muduo/net/inspect/PerformanceInspector.h"/>
+          <File Name="muduo/net/inspect/ProcessInspector.h"/>
+          <File Name="muduo/net/inspect/SystemInspector.h"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="poller">
+          <File Name="muduo/net/poller/EPollPoller.h"/>
+          <File Name="muduo/net/poller/PollPoller.h"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="protobuf">
+          <File Name="muduo/net/protobuf/ProtobufCodecLite.h"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="protorpc">
+          <File Name="muduo/net/protorpc/RpcChannel.h"/>
+          <File Name="muduo/net/protorpc/RpcCodec.h"/>
+          <File Name="muduo/net/protorpc/RpcServer.h"/>
+          <File Name="muduo/net/protorpc/rpc.pb.cc.rule"/>
+        </VirtualDirectory>
+        <File Name="muduo/net/ZlibStream.h"/>
+        <File Name="muduo/net/TimerId.h"/>
+        <File Name="muduo/net/Endian.h"/>
+        <File Name="muduo/net/Callbacks.h"/>
+        <File Name="muduo/net/boilerplate.h"/>
+      </VirtualDirectory>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <Settings Type="">
+    <Configuration Name="Release" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g" Required="yes" PreCompiledHeader="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="bin/$(ProjectName)" IntermediateDirectory="./" Command="./$(ProjectName)" CommandArguments="" WorkingDirectory="bin" PauseExecWhenProcTerminates="yes"/>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="yes">
+        <RebuildCommand>/usr/bin/make -j 4 clean &amp;&amp; /usr/bin/make -j 4</RebuildCommand>
+        <CleanCommand>/usr/bin/make -j 4 clean</CleanCommand>
+        <BuildCommand>/usr/bin/make -j 4</BuildCommand>
+        <SingleFileCommand>/usr/bin/make -f$(ProjectPath)/Makefile $(CurrentFileName).cpp.o</SingleFileCommand>
+        <PreprocessFileCommand/>
+        <WorkingDirectory>$(WorkspacePath)</WorkingDirectory>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+    </Configuration>
+    <GlobalSettings>
+      <Compiler Options="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+  </Settings>
 </CodeLite_Project>

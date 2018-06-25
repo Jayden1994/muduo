@@ -15,7 +15,9 @@
 #include <muduo/base/StringPiece.h>
 
 #include <netinet/in.h>
-
+/*
+IP地址的简单封装
+*/
 namespace muduo
 {
 namespace net

@@ -14,7 +14,6 @@ int main()
   muduo::net::EventLoop loop;
   muduo::net::InetAddress listenAddr(2007);
   EchoServer server(&loop, listenAddr);
-  server.start();
+  server.start();   //启动线程，创建套接字，并使套接字进入监听态
   loop.loop();
 }
-

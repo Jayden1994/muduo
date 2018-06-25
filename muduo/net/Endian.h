@@ -13,7 +13,9 @@
 
 #include <stdint.h>
 #include <endian.h>
-
+/*
+网络字节序与本机字节序的转换
+*/
 namespace muduo
 {
 namespace net

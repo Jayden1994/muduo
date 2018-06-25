@@ -3,7 +3,9 @@
 
 #include <muduo/base/LogStream.h>
 #include <muduo/base/Timestamp.h>
-
+/*
+简单的日志，可搭配Asynclogging使用
+*/
 namespace muduo
 {
 

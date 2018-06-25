@@ -9,7 +9,9 @@
 #include <boost/noncopyable.hpp>
 #include <assert.h>
 #include <pthread.h>
-
+/*
+每个线程一个singleton
+*/
 namespace muduo
 {
 

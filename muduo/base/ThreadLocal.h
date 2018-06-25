@@ -10,7 +10,9 @@
 
 #include <boost/noncopyable.hpp>
 #include <pthread.h>
-
+/*
+线程局部数据
+*/
 namespace muduo
 {
 

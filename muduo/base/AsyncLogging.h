@@ -1,3 +1,7 @@
+/*
+异步日志backend
+*/
+
 #ifndef MUDUO_BASE_ASYNCLOGGING_H
 #define MUDUO_BASE_ASYNCLOGGING_H
 
