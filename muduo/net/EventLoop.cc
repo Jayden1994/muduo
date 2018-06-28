@@ -127,7 +127,7 @@ void EventLoop::loop()
     }
     currentActiveChannel_ = NULL;
     eventHandling_ = false;
-    doPendingFunctors();
+    doPendingFunctors();    //在每轮loop之后，将在其他线程中加入的任务执行完成
   }
 
   LOG_TRACE << "EventLoop " << this << " stop looping";

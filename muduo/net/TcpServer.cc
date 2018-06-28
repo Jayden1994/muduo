@@ -75,6 +75,7 @@ void TcpServer::newConnection(int sockfd, const InetAddress& peerAddr)
 {
   loop_->assertInLoopThread();
   EventLoop* ioLoop = threadPool_->getNextLoop();   //如果TCPServer只有单个eventloop，直接返回
+  //通过#号，将connId与Port分开，这样，通过Id的不同，保证string不可能重复
   char buf[64];
   snprintf(buf, sizeof buf, "-%s#%d", ipPort_.c_str(), nextConnId_);
   ++nextConnId_;
@@ -97,7 +98,7 @@ void TcpServer::newConnection(int sockfd, const InetAddress& peerAddr)
   conn->setWriteCompleteCallback(writeCompleteCallback_);
   conn->setCloseCallback(
       boost::bind(&TcpServer::removeConnection, this, _1)); // FIXME: unsafe
-  ioLoop->runInLoop(boost::bind(&TcpConnection::connectEstablished, conn));
+  ioLoop->runInLoop(boost::bind(&TcpConnection::connectEstablished, conn));//在这里打开对端口的监控
 }
 
 void TcpServer::removeConnection(const TcpConnectionPtr& conn)
